@@ -1,0 +1,28 @@
+{
+    "name": "nwidart/basajax",
+    "description": "",
+    "authors": [
+        {
+            "name": "basked",
+            "email": "basket.baza@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\BasAjax\\Providers\\BasAjaxServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\BasAjax\\": ""
+        }
+    },
+    "require": {
+
+    }
+}
